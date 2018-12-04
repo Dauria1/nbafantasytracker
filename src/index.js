@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import styles from './components/Teams.scss'
+import stiles from './components/Players.scss'
+import stylez from './components/Board.scss'
+import stahles from './components/PlayerContainer.scss'
+
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

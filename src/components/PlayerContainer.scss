@@ -1,0 +1,26 @@
+.statTable {
+  position: absolute;
+  top: 0%; 
+  width: 500px; 
+  height: 500px;
+  margin-left: 60vw;
+  margin-right: 50vw;
+  height: 1px;
+  background: linear-gradient(-60deg, #46404f 53%, #4B4452 53%);
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.25);
+  transform: translate(-50%, -50%)
+}
+
+th > .playerName {
+  position: relative;
+  transform: translateX(-50%); 
+} 
+
+.divider {
+  height: 1px;
+  width: 310px;
+  position: absolute;
+  margin-left: 40px;
+  font-size: 10pt;
+  color: white;
+}

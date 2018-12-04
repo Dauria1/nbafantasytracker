@@ -1,0 +1,21 @@
+.teams {
+  height: 50px;
+  border-radius: 20px;
+  background: linear-gradient(-60deg, #46404f 53%, #4B4452 53%);
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.25);
+  text-align: center;
+  color: white;
+  margin-left: 2%;
+}
+
+.teamlogo{
+  float: left;
+  height: 50px;
+  font-size: 40px;
+}
+
+.teams > p {
+  text-align: center;
+  line-height: 51px;
+
+}

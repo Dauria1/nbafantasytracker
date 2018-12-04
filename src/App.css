@@ -1,32 +1,35 @@
+
+
+body{
+  font-family: 'Oxygen', sans-serif;
+  background: radial-gradient(circle, #8AB1AA 40%, #5EACC2, #1F81AF);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 5s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner{
+  margin: 0;
+  letter-spacing: 2px;
+  height: 100px;
   color: white;
+  background: linear-gradient(-60deg, #46404f 53%, #4B4452 53%);
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.25);
 }
 
-.App-link {
-  color: #61dafb;
+.App-logo {
+  height: 20vmin;
+  animation: bounce .55s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  animation-iteration-count: infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+@keyframes bounce {
+from { transform: translate3d(0, 0, 0); }
+to   { transform: translate3d(0, 300px, 0); }
 }
